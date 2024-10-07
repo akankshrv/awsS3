@@ -1,0 +1,52 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.right-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #a8e12f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .right-section {
+        padding: 15px;
+    }
+
+    input,
+    textarea {
+        font-size: 14px;
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
